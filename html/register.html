@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>小米注册</title>
+  <link type="text/css" rel="stylesheet" href="../css/base.css" />
+  <link href="../css/rigister.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="rigi">
+    <p>
+      <img src="../img/mi_logo.jpg" />
+    </p>
+    <h1>注册小米账号</h1>
+    <form action="login.html" method="post" name="rigister">
+      <select id="rigi_op">
+        <option>中国（+86）</option>
+        <option>台湾 +886</option>
+        <option>中国香港（+852）</option>
+        <option>Brazil +55</option>
+        <option>India（+91）</option>
+        <option>Indonesia +(62)</option>
+      </select>
+      <input type="text" class="rigi_text" id="rigi_text" placeholder="请输入手机号码" />
+      <div class="rigi_phone">
+        <p class="rigi_suc">请输入手机号码</p>
+        <p class="rigi_err">手机号码格式错误</p>
+      </div>
+      <input type="text" class="rigi_yz" id="rigi_yz" placeholder="验证码" />
+
+      <input type="text" value="验证码" id="yzm" />
+
+      <div class="rigi_yzm">
+        <p class="rigi_suc">请输入验证码</p>
+        <p class="rigi_err">验证码格式错误</p>
+      </div>
+      <input type="password" class="rigi_pa" id="rigi_pa" placeholder="请输入密码">
+      <div class="rigi_ma">
+        <p class="rigi_suc">请输密码</p>
+        <p class="rigi_err">密码格式错误</p>
+      </div>
+      <input type="password" class="rigi_paa" id="rigi_paa" placeholder="请再次输入密码">
+      <div class="rigi_maa">
+        <p class="rigi_suc">请输密码</p>
+        <p class="rigi_err">密码格式错误</p>
+      </div>
+      <input type="submit" value="立即注册" class="rigi_but" id="rigi_but" />
+    </form>
+
+    <p class="rigi_zw">点击“立即注册，既表示您同意并愿意遵守小米
+      <a href="javascript:;">用户协议</a>和
+      <a href="javascript:;" class="rigi_ys">隐私政策</a>
+    </p>
+  </div>
+  <div class="rigi_bottom">
+    <p>
+      <a href="javascript">简体</a>
+      <span>|</span>
+      <a href="javascript">繁体</a>
+      <span>|</span>
+      <a href="javascript">English</a>
+      <span>|</span>
+      <a href="javascript">常见问题</a>
+    </p>
+    <p>小米公司版权所有-京ICP备10046000-
+      <a href="javascript:;">
+        <img src="../img/ga.png" />
+      </a> 京公安网安备11010802020134号-京ICp证110507号</p>
+  </div>
+  <script src="../lib/jquery-1.7.2.min.js"></script>
+  <script src="../lib/jquery.cookie.js">
+  </script>
+
+  <script src="../js/rigister.js"></script>
+  <script src="../lib/fnCookie.js"></script>
+  <!--<script src="../lib/base.js"></script>-->
+</body>
+
+</html>

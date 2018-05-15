@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.order{width:1223px;height:1393px;background:#f5f5f5;padding:0 100px;}
+.order_{line-height:38px;}
+.order_ p  span{color:#000;font-size:14px;padding:0 10px;}
+.order_left{width:100px;height:940px;float:left;background:#FFF;padding:45px 95px 40px 40px;
+font-size:16px;}
+.order_left li{line-height:30px;}
+.order_left li a{color:#000}
+.order_left .order_left_list1_li1{line-height:60px;font-size:17px;font-weight:600}
+.order_left_list1 li:hover a{color:#f60}
+.order_left_list2 li:hover a{color:#f60}
+.order_left_list3 li:hover a{color:#f60}
+.order_left_list4 li:hover a{color:#f60}
+.order_right{width:887px;height:1105px;background:#FFF;float:right;padding:55px 47px 0 45px;
+position:relative}
+.order_right h1{width:145px;height:45px;display:inline-block;float:left;font-size:35px;font-weight:500}
+.order_right p{width:600px;line-height:52px;margin-top:10px;display:inline-block;float:left;font-size:15px;}
+.order_right p a{color:#000}
+.order_right_a a:hover {text-decoration:underline;}
+.order_right_p1 a span{font-size:16px;padding:0 10px;border-right:1px solid #000}
+.order_right_p1 a:hover{color:#F60;}
+.order_right_act{color:#f60;}
+.order_mi5{width:880px;height:200px;position:absolute;top:250px;}
+.order_mi5 p{width:840px;}
+.order_mi5 p span{font-wize:20px;color:#000;width:200px;height:50px;border:1px solid #F60;display:inline-block;text-align:center;}
+.order_mi{width:880px;height:200px;}
+.order_mi li{float:left;width:200px;height:230px;border:1px solid #f60;text-align:center;text-align:center;overflow:hidden;border-top:0;}
+.order_mi li img{width:100px;height:150px;}
+.order_mi li dd{line-height:40px;font-size:20px;}
+.order_mi li span{font-size:25px;line-height:200px;}
+#mi_jian{width:40px;height:50px;border:1px solid #999;display:inline-block;float:left;margin-top:100px;margin-left:10px;}
+#mi_txt{width:80px;height:48px;border:1px solid #999;display:inline-block;float:left;margin-top:100px;text-align:center;}
+#mi_jia{width:40px;height:50px;border:1px solid #999;display:inline-block;float:left;margin-top:100px;}
+#js{width:140px;line-height:50px;background:#F60;float:right;margin-top:400px;text-align:center;cursor:pointer}
+#js span{font-size:17px;color:#FFF;}
+.order_text{margin-top:20px;width:205px;height:40px;border:1px solid #CCC;display:inline-block;padding-left:15px;float:left;}
+.order_but{cursor:pointer;margin-top:20px;float:left;width:40px;height:40px;display:inline-block;border:1px solid #CCC;border-left:none;}
+.order_but:hover{background:#F60;color:#FFF}
+
+
+
+
+
+

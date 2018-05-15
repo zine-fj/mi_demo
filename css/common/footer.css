@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+.footer{height:460px;}
+.footer1{height:80px;border-bottom:1px solid #CCC;}
+.footer1_list li{border-right:1px solid #CCC;float:left;margin-top:33px;width:244px;text-align:center}
+.footer1_list li a{color:#000;font-size:16px;}
+.footer1_list li a:hover{color:#f60;} 
+.footer1_list_li1 img
+,.footer1_list_li2 img
+,.footer1_list_li3 img
+,.footer1_list_li4 img
+,.footer1_list_li5 img{
+	display:none;}
+.footer2{width:1226px;height:195px;}
+.footer2_left{width:975px;height:193px;float:left;}
+.footer2_left_list1{width:160px;height:193px;float:left;}
+.footer2_left_list1 p{width:57px;height:20px;display:inlin-block;margin:30px 0 10px 0;}
+.footer2_left_list1 li{line-height:35px;width:57px;color:#999}
+.footer2_left_list1 li a{color:#000;}
+.footer2_left_list1 li:hover a{color:#F60;}
+.footer2_right{margin:40px 0px;padding-left:50px;width:148px;height:113px;float:left;border-left:1px solid #CCC;}
+.footer2_right h2{text-align:center;color:#f60;font-size:21px;font-weight:500;}
+.footer2_right p{text-align:center;line-height:20px;}
+.footer2_right span{width:122px;line-height:32px;text-align:center;display:inline-block;border:1px solid #F60;
+color:#f60;margin-top:20px;}
+.footer2_right span:hover{background:#f60;color:#FFF;} 
+  
+  
+.footer3{width:1225px;height:165px;background:#fafafa;padding:0 100px;margin-left:-100px;}
+.footer_left{width:884px;height:60px;float:left;padding:30px 0;position:relative}
+.footer3_left_list{margin-left:60px;float:left;}
+.footer3_left_list li{float:left;margin:0 2px;border-right:1px solid #CCC;padding-right:2px;}
+.footer3_left_list li:hover a{color:#f60}
+.footer3_left_list li a{color:#CCC}
+.footer_left em{background:url(../img/mi_logo.jpg) left center;width:55px;height:15px;pa
+dding-left:50px;padding-top:40px;position:absolute;top:26px;}  
+.footer_left p{float:left;margin-left:60px;color:#CCC;line-height:15px;}
+.footer_right{width:340px;height:60px;float:right;padding-top:30px;}
+.footer_right_list li{float:left;}
+.footer_right_list li img{width:85px;height:28px;}
+ 
+.footer_bottom{width:1225px;height:30px;position:relative;top:130px;} 
+.footer_bottom p{position:absolute;left:500px;font-size:20px;color:#ccc}
+  

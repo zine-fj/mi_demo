@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body{width:860px;height:567px;background:#f5f5f5;padding:75px 290px;}
+.rigi{width:335px;height:635px;background:#ffffff;padding:0 260px;position:relative;}
+.rigi p{text-align:center}
+.rigi h1{text-align:center;font-size:30px;font-weight:500;line-height:90px;}
+.rigi input {width:320px;height:40px;border:1px solid #CCC;margin:10px 0;padding:0 10px;}
+#rigi_op{width:340px;height:40px;padding-left:10px;}
+
+
+.rigi_phone p,.rigi_yzm p,.rigi_ma p,.rigi_maa p{color:#f60;float:left;width:150px;display:inline-block}
+.rigi .rigi_yz{width:195px;float:left;}
+#yzm{width:50px;height:40px;display:inline-block;float:left;cursor:pointer;
+margin-top:11px;border:1px solid #CCC;position:relative;background:#600;font-size:15px;color:#FFF;
+margin-left:10px;}
+#rigi_but{background:#F60;color:#FFF;font-size:18px;cursor:pointer;border:0;
+}
+.rigi_zw{font-size:12px;color:#666;line-height:30px;}
+.rigi_zw a{color:#000;font-weight:bold;margin:0 5px;}
+.rigi_ys{float:left;}
+.rigi_bottom{text-align:center;line-height:30px;margin-top:30px;width:855px;height:110px;}
+.rigi_bottom a{color:#666;font-size:13px;display:inline-block;}
+.rigi_bottom p{padding-top:10px;}
+.rigi_bottom span{margin:0 10px;}
+.rigi_bottom p a:hover {color:#000}

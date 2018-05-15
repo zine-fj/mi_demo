@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>购物车</title>
+  <link rel="stylesheet" href="../lib/base.css" />
+  <link rel="stylesheet" href="../css/shop_car.css" />
+  <link rel="stylesheet" href="../css/common/heater.css" />
+  <link rel="stylesheet" href="../css/common/footer.css" />
+</head>
+
+<body>
+  <div class="shop_car_top">
+    <div class="shop_car_logo">
+      <div class="shop_car_logo_">
+        <a href="javascript:;">
+          <img src="../img/mi_logo0.jpg" />
+        </a>
+        <a href="index.html">
+          <img src="../img/mi_logo1.jpg" />
+        </a>
+      </div>
+    </div>
+    <h1>我的购物车</h1>
+    <p>
+      <span>
+        <a href="login.html">登录</a>
+      </span>|
+      <span>
+        <a href="register.html">注册</a>
+      </span>
+    </p>
+  </div>
+  <div class="shop_car">
+    <dl class="shop_car_">
+      <dt>
+        <img src="../img/shop_car.jpg" />
+      </dt>
+      <dd>
+        <h2>您的购物车还是空的!</h2>
+        <p>登录后将显示 您之前加入的商品</p>
+        <p class="shop_car_p">
+          <a href="login.html"></a>
+          <a href="index.html">
+            <span>马上去购物</span>
+          </a>
+        </p>
+      </dd>
+    </dl>
+  </div>
+  <div id="footer"></div>
+  <script src="../lib/jquery-1.7.2.min.js"></script>
+  <script src="../js/shop_car.js"></script>
+  <script src="../js/index.js"></script>
+  <script>
+    //异步加载公用尾部
+    $.ajax({
+      url: "common/footer.html",
+      async: false,
+      type: "get",
+      dataType: "html",
+      async: false,
+      success: function (msg) {
+        $("#footer").html(msg);
+      }
+    })
+  </script>
+
+</body>
+
+</html>

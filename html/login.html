@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>小米登录</title>
+  <link type="text/css" rel="stylesheet" href="../css/base.css" />
+  <link href="../css/enter.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="login">
+    <p>
+      <img src="../img/mi_logo.jpg" />
+    </p>
+    <h1>小米账号登录</h1>
+    <form action="" method="post" name="login">
+      <input type="text" class="login_text" id="login_text" placeholder="邮箱/手机号码/小米账号" />
+      <input type="password" class="login_password" id="login_password" placeholder="密码" />
+      <input type="button" value="立即登录" class="login_submit" id="login_submit" />
+    </form>
+    <p class="login_qt">———————— 其他登录方式 ————————</p>
+    <ul class="way">
+      <li>
+        <a href="#">
+          <img src="../img/qq.jpg" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="../img/qq.jpg" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="../img/qq.jpg" />
+        </a>
+      </li>
+    </ul>
+    <p class="login_zw">
+      <a href="register.html">注册小米账号</a>
+      <span>|</span>
+      <a href="register.html">忘记密码？</a>
+    </p>
+  </div>
+  <div class="login_bottom">
+    <p>
+      <a href="javascript">简体</a>
+      <span>|</span>
+      <a href="javascript">繁体</a>
+      <span>|</span>
+      <a href="javascript">English</a>
+      <span>|</span>
+      <a href="javascript">常见问题</a>
+    </p>
+    <p>小米公司版权所有-京ICP备10046000-
+      <a href="javascript:;">
+        <img src="../img/ga.png" />
+      </a> 京公安网安备11010802020134号-京ICp证110507号</p>
+  </div>
+</body>
+<script src="../lib/jquery.cookie.js">
+</script>
+<script src="../lib/fnCookie.js"></script>
+<script>
+  var oLo = document.getElementById('login_text');
+  var oLoPa = document.getElementById('login_password');
+  var oLoSu = document.getElementById('login_submit');
+
+  oLo.value = cookie.getCookie("rigi_text")
+  oLoPa.value = cookie.getCookie("rigi_pa")
+  oLoSu.onclick = function () {
+    if (oLo.value == cookie.getCookie("rigi_text") && oLoPa.value == cookie.getCookie("rigi_pa")) {
+
+      location.href = "index.html";
+
+    } else {
+      alert("false");
+    }
+  }
+</script>
+
+</html>

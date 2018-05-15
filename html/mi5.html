@@ -1,0 +1,597 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>小米5详情页</title>
+<link href="../lib/base.css" rel="stylesheet" text="text/css"/>
+<link href="../css/mi5.css" rel="stylesheet" text="text/css"/>
+<link href="../css/common/heater.css" rel="stylesheet"/>
+<link href="../css/common/footer.css" rel="stylesheet"/>
+</head>
+
+<body>
+   
+   <div class="top">
+          <ul class="top_left">
+            <li><a href="#">小米网</a></li>
+            <li><a href="#">MIUI</a></li>
+            <li><a href="#">米聊</a></li>
+            <li><a href="#">游戏</a></li>
+            <li><a href="#">多看阅读</a></li>
+            <li><a href="#">云服务</a></li>
+            <li><a href="#">小米移动版</a></li>
+            <li><a href="#">问题反馈</a></li>
+            <li style="border-right:none;"><a href="#">Select Region</a></li>
+          </ul>
+          <div class="top_right">
+              <ul class="top_per">
+                <li><a href="login.html">登录</a></li>
+                <li style="border-right:none;"><a href="register.html">注册</a></li>
+              </ul>
+              <div class="shop_cart" id="gwc">
+                <a href="order.html">购物车(0)</a>
+              </div>
+          </div>
+       </div>
+        <!-----------top over--------------->
+       <div class="logo">
+         <div class="mi_logo" id="mi_logo">
+           <a href="index.html"><img src="../img/mi_logo.jpg"/></a>
+         </div>
+         <div class="mi_logo_qb">
+            全部商品分类
+         </div>
+         <ul class="logo_list" id="logo_list">
+           <li><a href="#">小米手机</a></li>
+           <li><a href="#">红米</a></li>
+           <li><a href="#">平板</a></li>
+           <li><a href="#">电视</a></li>
+           <li><a href="#">盒子</a></li>
+           <li><a href="#">路由器</a></li>
+           <li><a href="#">智能硬件</a></li>
+           <li><a href="#">服务</a></li>
+           <li><a href="#">社区</a></li>
+         </ul>
+           <!--一级导航 over-->
+          <ul id="logo_list_xm" class="logo_list_xm">
+               <li><a href="#"> <img src="../img/mi5.jpg"><p>小米手机5</p></a>
+                <p>1999元起</p>
+               </li>
+               <li><a href="#" > <img src="../img/mi4s.jpg"><p>小米手机4s</p></a>
+                <p>1699元</p>
+               </li>
+               <li><a href="#" > <img src="../img/mi4c.jpg"><p>小米手机4c</p></a>
+               <p>1099元</p>
+               </li>
+               <li><a href="#" > <img src="../img/mi4.jpg"><p>小米手机4</p></a>
+               <p>1299元</p>
+               </li>
+               <li style="border-right:none"><a href="#" > <img src="../img/miNote.jpg"><p>小米Note标准版</p></a>
+               <p>1499元</p>
+               </li>
+          </ul>
+          <ul id="logo_list_hm" class="logo_list_hm">
+               <li><a href="#"> <img src="../img/hmnote3.jpg"><p>红米Note3</p></a>
+                <p>899元起</p>
+               </li>
+               <li style="border-right:none"><a href="#" > <img src="../img/hm3.jpg"><p>红米手机3</p></a>
+                <p>699元起</p>
+               </li>
+          </ul>
+          <ul id="logo_list_pb" class="logo_list_pb">
+               <li><a href="#"> <img src="../img/pb1.jpg"><p>小米平板2 16GB</p></a>
+                <p>999元</p>
+               </li>
+               <li><a href="#" > <img src="../img/pb2.jpg"><p>小米平板2 64GB</p></a>
+                <p>1299元</p>
+               </li>
+               <li style="border-right:none;"><a href="#" > <img src="../img/pb3.jpg"><p>小米平板2 64GB Windows版</p></a>
+                <p>1299元</p>
+               </li>
+          </ul>
+          <ul id="logo_list_ds" class="logo_list_ds">
+               <li><a href="#"> <img src="../img/ds1.jpg"><p>小米电视3S 43英寸</p></a>
+                <p>1799元</p>
+               </li>
+               <li><a href="#" > <img src="../img/ds2.jpg"><p>小米电视3S 48英寸</p></a>
+                <p>1999元</p>
+               </li>
+               <li><a href="#" > <img src="../img/ds3.jpg"><p>小米电视3 55英寸</p></a>
+                <p>3999元起</p>
+               </li>
+               <li><a href="#"> <img src="../img/ds4.jpg"><p>小米电视3 60英寸</p></a>
+                <p>4999元</p>
+               </li>
+               <li><a href="#" > <img src="../img/ds5.jpg"><p>小米电视3S 65英寸曲面</p></a>
+                <p>8999元</p>
+               </li>
+               <li style="border-right:none;"><a href="#" > <img src="../img/ds6.jpg"><p>小米电视3 70英寸</p></a>
+                <p>9999元</p>
+               </li>
+          </ul>
+          <ul id="logo_list_hz" class="logo_list_hz">
+               <li><a href="#"> <img src="../img/hz1.png"><p>小米盒子mine版</p></a>
+                <p>199元</p>
+               </li>
+               <li><a href="#" > <img src="../img/hz2.png"><p>小米盒子3</p></a>
+                <p>299元</p>
+               </li>
+               <li style="border-right:none;"><a href="#" > <img src="../img/hz3.jpg"><p>小米盒子3 增强版</p></a>
+                <p>399元</p>
+               </li>
+          </ul>
+          <ul id="logo_list_ly" class="logo_list_ly">
+               <li><a href="#"> <img src="../img/ly1.jpg"><p>全新小米路由器</p></a>
+                <p>699元起</p>
+               </li>
+               <li><a href="#" > <img src="../img/ly2.png"><p>小米路由器3</p></a>
+                <p>149元</p>
+               </li>
+               <li><a href="#" > <img src="../img/ly3.jpg"><p>小米路由器mine</p></a>
+                <p>129元</p>
+               </li>
+               <li><a href="#" > <img src="../img/ly4.jpg"><p>小米路由器青春版</p></a>
+                <p>79元</p>
+
+               </li>
+               <li style="border-right:none;"><a href="#" > <img src="../img/ly5.jpg"><p>小米WiFi放大器</p></a>
+                <p>39元</p>
+               </li>
+          </ul>
+          <ul id="logo_list_zn" class="logo_list_zn">
+               <li><a href="#"> <img src="../img/zn1.jpg"><p>米家压力IH电饭煲</p></a>
+                <p>999元</p>
+               </li>
+               <li><a href="#" > <img src="../img/zn2.jpg"><p>九号平衡车</p></a>
+                <p>1999元</p>
+               </li>
+               <li><a href="#" > <img src="../img/zn3.jpg"><p>小米空气净化器2</p></a>
+                <p>699元</p>
+               </li>
+               <li><a href="#" > <img src="../img/zn4.jpg"><p>体重秤</p></a>
+                <p>99元</p>
+               </li>
+               <li><a href="#" > <img src="../img/zn5.jpg"><p>摄像机</p></a>
+                <p>149元</p>
+               </li>
+              <li style="border-right:none;"><a href="#" > <img src="../img/zn6.jpg"><p>查看全部</p></a>
+                <p style="color:#000">智能硬件</p>
+               </li>
+          </ul> 
+            <!--二级导航 over-->  
+         <form action="" method="post" name="" class="search">
+           <input type="text" class="text"/>
+           <input type="button" value="提交" class="but"/>
+         </form>
+         <ul class="search_" >
+           <li><a href="#">小米手机5<span>约有8件</span></a></li>
+           <li><a href="#">空气净化器2<span>约有1件</span></a></li>
+           <li><a href="#">活塞耳机<span>约有3件</span></a></li>
+           <li><a href="#">小米路由器<span>约有8件</span></a></li>
+           <li><a href="#">移动电源<span>约有26件</span></a></li>
+           <li><a href="#">运动相机<span>约有1件</span></a></li>
+           <li><a href="#">小米摄像机<span>约有2件</span></a></li>
+           <li><a href="#">小米体重秤<span>约有1件</span></a></li>
+           <li><a href="#">小米插线板<span>约有13件</span></a></li>
+           <li><a href="#">配件优惠套装<span>约有31件</span></a></li>
+         </ul>               
+       </div>
+       <!---------logo over--------------->
+       
+       <div class="banner_nav" id="banner_nav">
+         <ul class="banner_nav_left" id="banner_nav_left">
+           <li><a href="#">手机</a><a href="#">平板</a><a href="#">电话卡</a><span>></span></li>
+           <li><a href="#">电视</a><a href="#">盒子</a><span>></span></li>
+           <li><a href="#">路由器</a><a href="#">智能硬件</a><span>></span></li>
+           <li><a href="#">移动电源</a><a href="#">插线板</a><span>></span></li>
+           <li><a href="#">耳机</a><a href="#">音箱</a><span>></span></li>
+           <li><a href="#">电池</a><a href="#">存储卡</a><span>></span></li>
+           <li><a href="#">保护套</a><a href="#">后盖</a><span>></span></li>
+           <li><a href="#">贴膜</a><a href="#">其他配件</a><span>></span></li>
+           <li><a href="#">米兔</a><a href="#">服装</a><span>></span></li>
+           <li><a href="#">箱包</a><a href="#">其他周边</a><span>></span></li>
+         </ul>
+         
+         <div class="banner_nav_right">
+             <ul class="banner_nav_right1">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a><span><a href="#">选购</a></span></li>
+             </ul>
+             <ul class="banner_nav_right2">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <ul class="banner_nav_right2_">
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                </ul>
+             </ul>
+             
+             <ul class="banner_nav_right3">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <ul class="banner_nav_right3_">
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                </ul>
+             </ul>
+             <ul class="banner_nav_right4">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+             </ul>
+             <ul class="banner_nav_right5">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <ul class="banner_nav_right5_">
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                    <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                </ul>
+             </ul>
+             <ul class="banner_nav_right6">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+             </ul>
+             <ul class="banner_nav_right7">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+             </ul>
+             <ul class="banner_nav_right8">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+             </ul>
+             <ul class="banner_nav_right9">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+             </ul>
+             <ul class="banner_nav_right10">
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+                <li><a href="#"><img src="../img/mi51.jpg">小米手机5</a></li>
+             </ul>
+         </div>
+         
+      </div>
+        <!-------------banner  nav over  -----------> 
+           
+   <div class="mi5_main">
+       <div class="mi5_top">
+         <h3>小米手机5</h3>
+         <ul class="mi5_top_list">
+           <li><a href="javascript:;" style="color:#f60">概述</a></li>
+           <li><a href="javascript:;">黑科技</a></li>
+           <li><a href="javascript:;">相机</a></li>
+           <li><a href="javascript:;">屏幕</a></li>
+           <li><a href="javascript:;">设计</a></li>
+           <li><a href="javascript:;">图集</a></li>
+           <li><a href="javascript:;">参数</a></li>
+           <li><a href="javascript:;">意外保</a></li>
+           <li style="border-right:none;"><a href="javascript:;">F码通道</a></li>
+         </ul>
+         <span><a href="order.html">立即购买</a></span>
+       </div>
+       
+       
+       <div class="mi5_zs">
+       <div class="mi5_zs_word">
+             <h1>小米手机5</h1>
+             <h1>十余项黑科技，很轻狠快</h1>
+             <p>骁龙820处理器，最大可选4GB内存+128GB闪存</p>
+             <p>4轴防抖相机，3D陶瓷/玻璃机身</p>
+             <p class="mi5_zs_p1">1999<span>元起</span></p>
+             <p class="mi5_zs_p2">
+                 <a href="javascript:;"><span><em></em></span>外观视频</a>
+                 <a href="javascript:;"><span><em></em></span>4轴防抖视频</a>
+             </p>
+             
+         </div>
+         <img src="../img/mi5/mi5.jpg"/>
+       </div>
+       <!--   小米 综述 over   -->
+       
+       <div class="mi5_xn">
+         <div class="mi5_xn_word">
+             <h1>14万分，快的有点狠</h1>
+             <p>CPU性能翻倍的820处理器，提速87%的ufs闪存，快40%的Adreno 530图形引擎，
+                快100%的双通道LPDDR4，Antutu跑分性能测试高达惊人的14万分</p>
+             <p>
+             <a href="javascript:;">了解性能></a>
+                <dl>
+                  <dt>骁龙820</dt>
+                  <dd>旗舰处理器</dd>
+                </dl>
+               
+                <dl>
+                  <dt>4GB</dt>
+                  <dd>可选最大内存</dd>
+                </dl>
+                <dl style="border-right:none;">
+                  <dt>128GB</dt>
+                  <dd>可选最大闪存</dd>
+                </dl>
+             </p>
+         </div>
+         <img src="../img/mi5/mi51.jpg"/>
+       </div>
+        <!--   小米 性能 over   -->
+       <div class="mi5_sj">
+         <div class="mi5_sj_word">
+            <h1>129克，手感轻得不真实</h1>
+            <p>5.15"大屏幕，整机仅129克。<sup>[注]</sup></p>
+            <p>还有3D纤细侧腰，曲面玻璃的温润手感。我在手中的一刻，仿佛轻轻握住整个世界的背影</p>
+            <a href="javascript:;">了解设计></a>
+         </div>
+         <img src="../img/mi5/mi52.jpg"/>
+       </div>
+        <!--   小米 设计 over   -->
+       <div class="mi5_xj">
+         <div class="mi5_xj_word">
+           <h1>4轴防抖相机，感动、激动、不抖动</h1>
+           <p>采用源自专业相机的4轴光学防抖技术，比一般手机2轴防抖效果更佳，</p>
+           <p>阳光、暗光、运动、单手、都能稳定记录，清晰成像。 </p>
+           <a href="javascript:;">了解相机></a>
+         </div>
+         <ul class="photo" id="photo">
+           <li class="photo_li1"><img src="../img/mi5/xj1.jpg"/><em></em><span>蓝宝石镜头</span></li>
+           <li class="photo_li2"><img src="../img/mi5/xj2.jpg"/><em></em><span>6p镜片组</span></li>
+           <li class="photo_li3"><img src="../img/mi5/xj3.jpg"/><em></em><span>4轴光学防抖</span></li>
+           <li class="photo_li4"><img src="../img/mi5/xj4.jpg"/><em></em><span>索尼新一代</span></li>
+           <li class="photo_li5"><img src="../img/mi5/xj5.jpg"/><em></em><span>DTA</span></li>
+           <li class="photo_li6"><img src="../img/mi5/xj6.jpg"/><em></em><span>暗光增强</span></li>
+           
+         </ul>
+       
+         <img src="../img/mi5/mi53.jpg"/>  
+       </div>
+        <!--   小米 相机 over   -->
+       <div class="mi5_pm">
+          <div class="mi5_pm_word">
+            <h1>16颗灯省电高亮屏幕</h1>
+            <h1>鲜艳通透</h1>
+            <p>屏幕深度定制，在仅有5.15"屏幕上精密排布16颗LED灯珠，亮度提升30%，
+            色彩依旧鲜艳。灯光下看起来更通透，阳光下看得更清晰，这才是好屏幕应有的亮度</p>
+            <a href="javascript:;">了解屏幕></a>
+          </div>
+         <img src="../img/mi5/mi54.jpg"/>
+       </div>
+        <!--   小米 屏幕 over   -->
+       <div class="mi5_hkj">
+          <div class="mi5_hkj_word">
+             <h1>十余项黑科技</h1>
+             <p>配备能刷卡的NFC功能，还有全新Quick Charge3.0快充技术、全网通3.0、
+                众多黑科技，正在改变着手机体验的一点一滴</p>
+             <a href="javascript:;">了解黑科技&gt;</a>
+          </div>
+          <ul class="mi5_hkj_list">
+            <li class="mi5_hkj_list_li"><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li class="mi5_hkj_list_li"><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            
+            <li><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li class="mi5_hkj_list_li"><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li class="mi5_hkj_list_li"><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            
+            <li class="mi5_hkj_list_li"><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li class="mi5_hkj_list_li"><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+            <li><img src="../img/mi5/mi55.jpg"><p>骁龙820 4GB+128GB</p></li>
+          </ul>
+       </div>
+         <!----  小米 黑科技 over  -->
+       <div class="mi5_xt">
+         <div class="mi5_xt_word">
+           <h1>MIUI7再升级，1.7亿用户的新惊喜</h1>
+           <p>好看、好用的MIUI系统，在小米5上有了新惊喜。离线一键换机、
+               手机远程锁定防丢失，还有美颜视频电话等有趣的新玩法</p>
+           <a><span><em></em></span>一件换机演示</a>
+           <a>了解操作系统&gt;</a>
+         </div>
+         <img src="../img/mi5/mi56.jpg"/>
+       </div>
+         <!----  小米  系统 over  -->
+       <div class="mi5_ts">
+          <div class="mi5_ts_word">
+              <div class="mi5_ts_word1">
+                  <h1>探索黑科技，小米为发烧而生</h1>
+                  <p>我们热爱这个时代，正因昨日的探索，今天便成为你手中的科技。</p>
+                  <p>小米5就是黑科技的代表作之一，配备高通年度旗舰处理器，探索更快内存、新一   代闪存、下                 一代网络，还有相机、显示技术的重大提升，更不用说凝聚众多科技却仅有129g的超轻手感了。
+                  </p>
+                  <p>探索更快、探索更清晰、探索更明亮、探索更好握感，</p>
+                  <p>如果你爱这个时代的日新月异，你一定会爱上与你一起探索的全新小米5</p>
+                  <a href="javascript:;"><span><em></em></span>《去探索》小米年度品牌视频</a>
+               </div>
+          </div>
+       </div>
+         <!----  小米 探索 over  -->
+       <div class="mi5_bb">
+          <h1>哪一款是你的最爱？</h1>
+          <div class="mi5_bb_li1">
+              <ul class="mi5_bb_list1">
+                 <li><img src="../img/mi5/mi581.jpg"/></li>
+                 <li><img src="../img/mi5/mi582.jpg"/></li>
+                 <li><img src="../img/mi5/mi583.jpg"/></li>
+                 <li><img src="../img/mi5/mi584.jpg"/></li>
+              </ul>
+              <ul class="mi5_bb_list1_point">
+                     <li style="background:#CC6"></li>
+                     <li style="background:#CCC"></li>
+                     <li style="background:#000"></li>
+                     <li style="background:#F9F"></li>
+              </ul>
+              <p class="mi5_bb_li1_p"><span>标准版</span><span style="border-right:0;">1999元</span></p>
+              <p>骁龙820 最高主频1.8GHz</p>
+              <p>3GBLPDDR4+32GBS闪存、3D曲面玻璃机身</p>
+          </div> 
+          <div class="mi5_bb_li1">
+              <ul class="mi5_bb_list2">
+                 <li><img src="../img/mi5/mi581.jpg"/></li>
+                 <li><img src="../img/mi5/mi582.jpg"/></li>
+                 <li><img src="../img/mi5/mi583.jpg"/></li>
+                 <li><img src="../img/mi5/mi584.jpg"/></li>
+              </ul>
+              <ul class="mi5_bb_list2_point">
+                     <li style="background:#CC6"></li>
+                     <li style="background:#CCC"></li>
+                     <li style="background:#000"></li>
+                     <li style="background:#F9F"></li>
+              </ul>
+              <p class="mi5_bb_li1_p"><span>高配版</span><span style="border-right:0;">2299元</span></p>
+              <p>骁龙820 最高主频1.8GHz</p>
+              <p>3GBLPDDR4+32GBS闪存、3D曲面玻璃机身</p>
+          </div>
+          <div class="mi5_bb_li1">
+              <ul class="mi5_bb_list3">
+                
+                 <li><img src="../img/mi5/mi583.jpg"/></li>
+                  <li><img src="../img/mi5/mi582.jpg"/></li>
+              </ul>
+              <ul class="mi5_bb_list3_point">
+                    
+                     <li style="background:#000"></li>
+                      <li style="background:#CCC"></li>
+              </ul>
+              <p class="mi5_bb_li1_p"><span>尊享版版</span><span style="border-right:0;">2599元</span></p>
+              <p>骁龙820 最高主频1.8GHz</p>
+              <p>3GBLPDDR4+32GBS闪存、3D曲面玻璃机身</p>
+          </div>       
+       </div>
+          <!----  小米 版本选择 over  -->
+       <div class="mi5_zs">
+          <div class="mi5_zs1">
+            <h4>注释</h4>
+            <p>页面中数据来源：3D 陶瓷机身：小米5正面采用康宁大猩猩玻璃，中框采用铝合金材质，
+                标准版、高配版 后盖采用3D 玻璃材质，尊享版后盖采用3D 陶瓷材质；CPU 性能翻倍：
+                相比骁龙810处理器性能提升1倍， 数据对比来自 Qualcomm 官网及 Qualcomm 平台测试数据；
+                快40%的图形引擎： 较前一代 Adreno 430 图形处理器性能提升40%，
+                数据对比来自 Qualcomm 官网及 Qualcomm 平台测试数据；129g：129g为3D 玻璃版本，3D 
+                陶瓷版本约为139g，有微小浮动属正常范围；提速87%：相较 eMMC5.1传输速度提升 87%，
+                本数据为我公司实验室测试数据；快100%：根据理论主频速度推算所得，为小米5 采用的 LPDDR4
+                 对比 采用的 LPDDR3的小米自有手机 ；14万分：CPU 跑分数据为实验室采用  Antutu V6.0.4 测试，
+                 实际情况会因测试软件版本、具体测试环境、小米5具体版本不同，而略有差异；亮度提升30%：
+                 相比其他小米系列手机屏幕亮度450nit ，小米5 屏幕亮度为600nit，
+                 根据计算(600 – 450 ) /450 = 33%，亮度提升30%以上；美颜通话、一键换机、
+                 手机远程锁定防丢失功能：目前仅限于MIUI开发版，在初期出厂批次手机中并未包含。
+                 视频电话功能目前可通过小米应用商店获取。一键换机及手机远程锁定防丢失功能，
+                 后续可通过系统升级获取。页面中所对比的一般手机，均为小米自有手机。
+                 以上数据实际情况会因测试软件版本、具体测试环境、具体版本不同，而略有差异。
+             </p>
+          </div>
+          <div class="mi5_zs2">
+            <h1>是什么让小米快的如此惊人？</h1>
+            <a href="javascript:;">继续了解黑科技&gt;</a>
+          </div> 
+       </div>
+          <!----  小米 注释 over  -->
+   </div> 
+      
+     <ul class="mi5_lt">
+        <li class="mi5_li1"><a href="javascript:;">综述</a></li>
+       <li class="mi5_li2"><a href="javascript:;">性能</a></li>
+        <li class="mi5_li3"><a href="javascript:;">设计</a></li>
+        <li class="mi5_li4"><a href="javascript:;">相机</a></li>
+       <li class="mi5_li5"><a href="javascript:;">屏幕</a></li>
+       <li class="mi5_li6"><a href="javascript:;">黑科技</a></li>
+       <li class="mi5_li7"><a href="javascript:;">操作系统</a></li>
+        <li class="mi5_li8"><a href="javascript:;">探索</a></li>
+        <li class="mi5_li9"><a href="javascript:;">版本选择</a></li>
+     </ul>
+     <ul class="mi5_ltt">
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+       <li></li>
+     </ul>
+    <div id="footer" class="footer"></div>
+      
+</body>
+<script src="../lib/jquery-1.7.2.min.js"></script>
+<script src="../js/mi5.js"></script>
+  <script src="../js/common/heater.js"></script>
+
+<script>
+    
+    //异步加载公用尾部
+        $.ajax({
+            url: "common/footer.html",
+            async: false,
+            type: "get",
+            dataType: "html",
+            async: false,
+            success: function(msg) {
+                $("#footer").html(msg);
+            }
+        })
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

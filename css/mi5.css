@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+#mi_logo{width:90px;float:left;}
+.mi_logo_qb{width:130px;line-height:100px;display:inline-block;float:left;
+font-size:20px;cursor:pointer;}/*---全部商品分类*/
+.banner_nav{position:absolute;z-index:10;left:90px;top:140px;}
+#banner_nav_left{opacity:1;background:#FFF;border:1px solid #F60}
+#banner_nav_left li a{color:#000;}
+.mi5_top{width:1443px;height:overflow;margin:0 auto;}
+.mi5_top{height:50px;background:#f9f9f9;padding:0 96px;width:1230px;
+margin-top:100px;}
+.mi5_top h3{font-size:20px;line-height:50px;font-weight:500;width:600px;
+display:inline-block;float:left;}
+.mi5_top_list li{float:left;margin-top:15px;border-right:1px solid #CCC;padding:0 10px;}
+.mi5_top_list_li1{color:#f60;}
+.mi5_top_list li a{font-size:14px;color:#000}
+.mi5_top_list li a:hover {color:#f60;}
+.mi5_top span{width:120px;height:30px;line-height:30px;background:#f60;margin-top:10px;
+text-align:center;display:inline-block;}
+.mi5_top span a{color:#fff}
+.js{position:fixed;right:110px;bottom:50px;width:120px;text-align:center;line-height:50px;background:#F60;cursor:pointer}
+.js span{color:#FFF;font-size:20px;}
+   /*----------mi5 top over-------------*/
+.mi5_zs ,.mi5_xn,.mi5_sj,.mi5_xj,.mi5_pm,.mi5_hkj,.mi5_xt,.mi5_ts,.mi5_bb,mi5_zs{
+position:relative;width:1423px;height:800px;}
+.mi5_zs img,.mi5_xn img,.mi5_sj img,.mi5_xj img,.mi5_pm img,.mi5_xt img{
+	width:1423px;height:800px;margin:0 auto;}
+
+.mi5_zs_word{position:absolute;top:180px;left:280px;}
+.mi5_zs_word h1{font-size:40px;font-weight:500;margin:5px;}
+.mi5_zs_word p{font-size:15px;color:#666;line-height:20px;}
+.mi5_zs_word .mi5_zs_p1{font-size:35px;margin-top:100px;color:#000}
+.mi5_zs_word .mi5_zs_p1 span{font-size:15px;}
+.mi5_zs_word .mi5_zs_p2{margin-top:10px;}
+.mi5_zs_word .mi5_zs_p2 a{color:#000}
+.mi5_xt_word a span
+,.mi5_ts_word1 a span
+,.mi5_zs_word .mi5_zs_p2 span{
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	background:#F60;
+	display:inline-block;
+	margin:0 10px;
+	position:relative
+	}
+.mi5_xt_word a span em
+,.mi5_ts_word1 a span em
+,.mi5_zs_word .mi5_zs_p2 span em{
+	width:5px;
+	height:3px;
+	display:inline-block;
+	border:5px solid transparent;
+	border-left-color:#fff;
+	position:absolute;
+	left:6px;
+	}
+
+   /*------------  小米 综述 over---------*/
+.mi5_xn_word{position:absolute;color:#fff;padding:112px 350px 50px 300px;text-align:center;}
+.mi5_xn_word dl{border-right:1px solid #ccc;width:240px;height:85px;display:inline-block;float:left;margin-top:315px;}
+.mi5_xn_word dl dt{color:#CCC;font-size:35px;font-weight:300;}
+.mi5_xn_word dl dd{colot:#CCC;font-size:14px;line-height:50px;}
+
+   /*--   小米 性能 over   --*/
+
+.mi5_sj_word{position:absolute;padding:290px 275px 292px 415px;text-align:center;color:#333}
+.mi5_sj_word h1
+,.mi5_pm_word h1
+,.mi5_hkj_word h1
+,.mi5_xj_word h1
+,.mi5_xn_word h1
+,.mi5_xt_word h1
+,.mi5_ts_word1 h1{
+	font-size:40px;
+	font-weight:400;
+	margin-bottom:20px;}
+.mi5_sj_word p
+,.mi5_pm_word p
+,.mi5_hkj_word p
+,.mi5_xj_word p
+,.mi5_xn_word p
+,.mi5_xt_word p{
+	font-size:17px;
+	line-height:26px;
+	}
+.mi5_sj_word a
+,.mi5_pm_word a
+,.mi5_hkj_word a
+,.mi5_xj_word a
+,.mi5_xn_word a
+,.mi5_xt_word a
+,.mi5_ts_word1 a{
+	font-size:15px;
+	color:#f60;
+	line-height:50px;
+	}
+
+   /*--   小米 设计 over   --*/
+
+.mi5_xj_word{color:#fff;position:absolute;padding:114px 375px 472px 375px;text-align:}
+
+.photo{position:absolute;top:320px;left:60px;}
+.photo li{float:left;margin:0 20px;text-align:center;cursor:pointer}
+.photo_li1 img{width:50px;height:250px;}
+.photo_li1 em
+,.photo_li2 em
+,.photo_li3 em
+,.photo_li4 em
+,.photo_li5 em
+,.photo_li6 em{width:2px;height:230px;display:inline-block;background:#F60;position:absolute;
+left:50px;top:120px;}
+.photo_li2 em{left:240px;}
+.photo_li3 em{left:500px;}
+.photo_li4 em{left:720px;}
+.photo_li5 em{left:890px;}
+.photo_li6 em{left:1050px;}
+
+.photo_li1 span
+,.photo_li2 span
+,.photo_li3 span
+,.photo_li4 span
+,.photo_li5 span
+,.photo_li6 span{width:120px;line-height:30px;;display:inline-block;position:absolute;top:350px;left:0px;color:#FC0;font-size:16px;}
+,.photo_li6 span{width:120px;height:30px;background:#C96;display:inline-block;position:absolute;top:350px;left:0px;}
+.photo_li2 span{left:180px;}
+.photo_li3 span{left:440px;}
+.photo_li4 span{left:660px}
+.photo_li5 span{left:830px}
+.photo_li6 span{left:990px}
+
+.photo_li2 img{width:273px;height:168px;}
+.photo_li3 img{width:193px;height:278px;}
+.photo_li4 img{width:140px;height:188px;}
+.photo_li5 img{width:123px;height:152px;}
+.photo_li6 img{width:105px;height:124px;}
+.pho {}
+   /*--   小米 相机 over   --*/
+.mi5_pm_word{position:absolute;padding:166px 750px 335px 152px;}
+  
+  /*--   小米 屏幕 over   --*/
+.mi5_hkj_list li{background:#252525;float:left;width:355px;height:264px;text-align:center;}
+.mi5_hkj_list .mi5_hkj_list_li{background:#333}
+.mi5_hkj_list li img{margin-top:80px;}
+.mi5_hkj_list li p{color:#999;font-size:16px;line-height:70px;}
+.mi5_hkj_word{color:#fff;width:595px;height:205px;background:#303030;
+margin:180px 290px 204px 300px;position:absolute;box-shadow:0px 0px 40px 0 #333;text-align:center;padding:65px 105px 110px 90px;}
+
+   /*--   小米 黑科技 over   --*/
+   
+.mi5_xt_word{position:absolute;padding:115px 355px 460px 380px;text-align:center}   
+.mi5_xt_word p{margin:0 50px;}
+
+   
+    /*--   小米 系统 over   --*/
+   
+.mi5_ts{background:#eeeeee;position:relative} 
+.mi5_ts_word{width:860px;height:475px;margin:152px 210px 105px 255px;position:absolute;background:#FFF;text-align:center;box-shadow:0 0 20px 0 #CCC;}
+.mi5_ts_word1{width:670px;height:313px;border:1px solid #CCC;margin:50px;position:absolute;
+padding:65px 45px 0 45px;}   
+.mi5_ts_word1 p{font-size:15px;line-height:30px;}  
+    
+	/*--   小米 探索 over   --*/
+.mi5_bb{padding:0 185px;text-align:center;width:1053px;}
+.mi5_bb h1{font-size:40px;font-weight:400;line-height:200px;}
+.mi5_bb_li1{width:270px;height:440px;position:relative;margin-right:60px;float:left;}
+.mi5_bb_list1
+,.mi5_bb_list2
+,.mi5_bb_list3{
+	margin-bottom:320px;
+	}
+.mi5_bb_li1 p{width:270px;height:20px;text-align:center}
+.mi5_bb_li1_p{padding:18px 0;}
+.mi5_bb_li1 p span{width:70px;height:20px;font-size:16px;border-right:1px solid #CCC;padding:0 10px;}
+.mi5_bb_list1 li
+,.mi5_bb_list2 li
+,.mi5_bb_list3 li{
+	position:absolute;
+	left:35px;
+	}
+.mi5_bb_list1_point
+,.mi5_bb_list2_point
+,.mi5_bb_list3_point{
+	display:block;
+	width:200px;
+	height:20px;
+	padding-left:60px;
+	}
+.mi5_bb_list1_point li
+,.mi5_bb_list2_point li
+,.mi5_bb_list3_point li{
+	float:left;
+	margin:0 10px;
+	width:15px;
+	height:15px;
+	background:#0F9;
+    display:inline-block;
+	border-radius:50%;
+	cursor:pointer;
+	}
+.mi5_bb_list3_point_act{border:2px solid #F60;}
+
+   /*------------ 小米 版本选择 over ----------*/
+.mi5_zs{height:660px;}
+.mi5_zs1{width:1173px;height:190px;background:#fafafa;padding:60px 150px 50px 110px;}
+.mi5_zs1 h4{font-size:16px;line-height:60px;font-weight:400;color:#CCC}
+.mi5_zs1 p{font-size:12px;line-height:20px;color:#CCC}
+.mi5_zs2{width:588px;height:95px;background:#f5f5f5;padding:140px 415px 125px 420px;text-align:center}
+.mi5_zs2 h1{font-size:37px;font-weight:400;margin-bottom:40px;}
+.mi5_zs2 a{font-size:16px;color:#F60;}
+  
+  /*------------ 小米 注释 over ----------*/
+
+.mi5_lt{position:fixed;right:50px;top:30%;}
+.mi5_ltt{position:fixed;right:30px;top:30%;}
+.mi5_lt li{width:50px;height:12px;margin:30px 0;text-align:center;position:absolute;
+right:-1px;}
+.mi5_li2{top:40px;position:absolute}
+.mi5_li3{top:80px;position:absolute}
+.mi5_li4{top:120px;position:absolute}
+.mi5_li5{top:160px;position:absolute}
+.mi5_li6{top:200px;position:absolute}
+.mi5_li7{top:245px;position:absolute}
+.mi5_li8{top:290px;position:absolute}
+.mi5_li9{top:330px;position:absolute}
+
+.mi5_lt li a{color:#09F}
+.mi5_ltt li{width:10px;height:10px;border-radius:50%;background:#CCC;cursor:pointer;margin:31px 0;}
+mi5_lt_act{border:1px solid #FFC;background:#FFF;}  
